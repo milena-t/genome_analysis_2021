@@ -4,4 +4,4 @@
 'processed_data' is the folder that contains the processed data (trimmed etc)
 
 'code' contains all code (python and bash files) used in the project
-'documents' sontains documents with additional notes 
+'documents' contains the project description, wiki, and documents with additional notes 
