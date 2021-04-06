@@ -8,5 +8,6 @@
 
 module load bioinfo-tools FastQC/0.11.9
 fastqc -o /home/milenatr/private/genome_analysis_2021/documents/fastQC_first -f fastq -t 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*.fastq.gz
+multiqc /home/milenatr/private/genome_analysis_2021/documents/fastQC_first
 
 echo 'Finished'
