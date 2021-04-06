@@ -13,9 +13,13 @@ F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*1P.fastq.gz)
 #forward paired reads
 R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*2P.fastq.gz)
 #reverse paired reads
+ALL=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*2P.fastq.gz)
 
 OUT_DIR="/home/milenatr/private/genome_analysis_2021_git/documents/trim"
 
+
+echo "${#F[*]}, ${#F[*]}*4 "
+echo ${#ALL[*]}
 for i in ${!R[*]}
 do  
     OUT_P1="$OUT_DIR/${F[i]:69:10}_P1.fastq"
