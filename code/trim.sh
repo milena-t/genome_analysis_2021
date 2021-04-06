@@ -14,8 +14,14 @@ F=/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*1P.fastq.gz
 R=/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*2P.fastq.gz
 #reverse paired reads
 echo 'Forward'
-echo ${F[*]}
+echo ${#F[*]}
 echo 'Reverse'
-echo ${R[*]} 
+echo ${#R[*]}
+
+for i in ${!R[*]}
+do 
+    echo ${F[$i]}
+    echo ${R[$i]}
+done
 
 echo 'Finished'
