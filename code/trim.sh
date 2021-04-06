@@ -18,10 +18,10 @@ OUT_DIR="/home/milenatr/private/genome_analysis_2021_git/documents/trim"
 
 for i in ${!R[*]}
 do  
-    OUT_P1="$OUT_DIR/${i:69:12}_P1.fastq"
-    OUT_P2="$OUT_DIR/${i:69:12}_P2.fastq"
-    OUT_U1="$OUT_DIR/${i:69:12}_U1.fastq"
-    OUT_U2="$OUT_DIR/${i:69:12}_u2.fastq"
+    OUT_P1="$OUT_DIR/${F[i]:69:10}_P1.fastq"
+    OUT_P2="$OUT_DIR/${F[i]:69:10}_P2.fastq"
+    OUT_U1="$OUT_DIR/${F[i]:69:10}_U1.fastq"
+    OUT_U2="$OUT_DIR/${F[i]:69:10}_u2.fastq"
     echo ${F[$i]}
     echo ${R[$i]}
     echo $OUT_P1
