@@ -14,7 +14,7 @@ F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*1P.fastq.gz)
 R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*2P.fastq.gz)
 #reverse paired reads
 
-OUT_DIR="/home/milenatr/private/genome_analysis_2021_git/documents/trim"
+OUT_DIR="/home/milenatr/private/genome_analysis_data/trim_by_me"
 
 for i in ${!R[*]}
 do  
@@ -25,7 +25,7 @@ do
     echo ${F[$i]}
     echo ${R[$i]}
 
-    java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE -threads 2 $F $R $OUT_P1 $OUT_U1 $OUT_P2 $OUT_U2 ILLUMINACLIP:$TRIMMOMATIC_HOME/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:20 TRAILING:20 SLIDINGWINDOW:5:20 MINLEN:20 
+    java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE -threads 2 $F $R $OUT_P1 $OUT_U1 $OUT_P2 $OUT_U2 ILLUMINACLIP:$TRIMMOMATIC_HOME/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:20 TRAILING:20 SLIDINGWINDOW:5:20 MINLEN:20 | gzip
     
     echo 'finished trim'
 
