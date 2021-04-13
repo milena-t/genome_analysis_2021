@@ -1,0 +1,1030 @@
+
+Version 2.04: released on July 13th, 2012
+Compile Nov 20 2013	12:17:09
+
+********************
+Pregraph
+********************
+
+Parameters: pregraph -s soapdenovo.config -K 49 -p 2 -o /home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test 
+
+In soapdenovo.config, 17 lib(s), maximum read length 100, maximum name length 256.
+
+2 thread(s) initialized.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_u2.fastq
+Time spent on hashing reads: 70s, 7365080 read(s) processed.
+LIB(s) information:
+ [LIB] 0, avg_ins 200, reverse 0.
+ [LIB] 1, avg_ins 200, reverse 0.
+ [LIB] 2, avg_ins 200, reverse 0.
+ [LIB] 3, avg_ins 200, reverse 0.
+ [LIB] 4, avg_ins 200, reverse 0.
+ [LIB] 5, avg_ins 200, reverse 0.
+ [LIB] 6, avg_ins 200, reverse 0.
+ [LIB] 7, avg_ins 200, reverse 0.
+ [LIB] 8, avg_ins 200, reverse 0.
+ [LIB] 9, avg_ins 200, reverse 0.
+ [LIB] 10, avg_ins 200, reverse 0.
+ [LIB] 11, avg_ins 200, reverse 0.
+ [LIB] 12, avg_ins 200, reverse 0.
+ [LIB] 13, avg_ins 200, reverse 0.
+ [LIB] 14, avg_ins 200, reverse 0.
+ [LIB] 15, avg_ins 200, reverse 0.
+ [LIB] 16, avg_ins 200, reverse 0.
+2939877 node(s) allocated, 290474886 kmer(s) in reads, 290474886 kmer(s) processed.
+done hashing nodes
+2804492 linear node(s) marked.
+Time spent on marking linear nodes: 0s.
+Time spent on pre-graph construction: 70s.
+
+Start to remove frequency-one-kmer tips shorter than 98.
+Total 0 tip(s) removed.
+2 thread(s) initialized.
+0 linear node(s) marked.
+Start to remove tips with minority links.
+47060 tip(s) removed in cycle 1.
+960 tip(s) removed in cycle 2.
+5 tip(s) removed in cycle 3.
+0 tip(s) removed in cycle 4.
+Total 48025 tip(s) removed.
+2 thread(s) initialized.
+0 linear node(s) marked.
+Time spent on removing tips: 2s.
+
+99434 (49717) edge(s) and 9060 extra node(s) constructed.
+Time spent on constructing edges: 1s.
+
+In file: soapdenovo.config, max seq len 100, max name len 256.
+2 thread(s) initialized.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_u2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P2.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_U1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_u2.fastq
+7365080 read(s) processed.
+Time spent on:
+ importing reads: 6s,
+ chopping reads to kmers: 10s,
+ searching kmers: 24s,
+ aligning reads to edges: 11s,
+ searching (K+1)mers: 4s,
+ adding pre-arcs: 2s,
+ recording read paths: 0s.
+0 marker(s) output.
+Reads alignment done, 975035 read(s) deleted, 67568 pre-arc(s) added.
+LIB(s) information:
+ [LIB] 0, avg_ins 200, reverse 0.
+ [LIB] 1, avg_ins 200, reverse 0.
+ [LIB] 2, avg_ins 200, reverse 0.
+ [LIB] 3, avg_ins 200, reverse 0.
+ [LIB] 4, avg_ins 200, reverse 0.
+ [LIB] 5, avg_ins 200, reverse 0.
+ [LIB] 6, avg_ins 200, reverse 0.
+ [LIB] 7, avg_ins 200, reverse 0.
+ [LIB] 8, avg_ins 200, reverse 0.
+ [LIB] 9, avg_ins 200, reverse 0.
+ [LIB] 10, avg_ins 200, reverse 0.
+ [LIB] 11, avg_ins 200, reverse 0.
+ [LIB] 12, avg_ins 200, reverse 0.
+ [LIB] 13, avg_ins 200, reverse 0.
+ [LIB] 14, avg_ins 200, reverse 0.
+ [LIB] 15, avg_ins 200, reverse 0.
+ [LIB] 16, avg_ins 200, reverse 0.
+Time spent on aligning reads: 67s.
+
+45496 vertex(es) output.
+Overall time spent on constructing pre-graph: 2m.
+
+
+********************
+Contig
+********************
+
+Parameters: contig -g /home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test -M 1 -s soapdenovo.config -p 2 
+
+There are 45496 kmer(s) in vertex file.
+There are 99434 edge(s) in edge file.
+Kmers sorted.
+99434 edge(s) input.
+105198 pre-arcs loaded.
+24700 none-palindrome edge(s) swapped, 0 palindrome edge(s) processed.
+99434 edge(s) sorted.
+Arcs sorted.
+Start to pinch bubbles, cutoff 0.100000, MAX NODE NUM 3, MAX DIFF NUM 2.
+18305 start points, 31412 dheap nodes.
+2270 pair(s) found, 56 pair of path(s) compared, 47 pair(s) merged.
+Sequence comparison failed:
+ Path crossing deleted edge                         0
+ Length difference of two paths greater than two    4
+ Mismatch score greater than cutoff (2)             1
+ Mismatch score ratio greater than cutoff (0.1)     0
+ Path length shorter than (Kmer-1)                  4
+DFibHeap: 488 node(s) allocated.
+1635 edge(s) concatenated in cycle 1.
+3 edge(s) concatenated in cycle 2.
+0 edge(s) concatenated in cycle 3.
+Time spent on pinching bubbles: 0s.
+Start to destroy weak inner edges.
+0 weak inner edge(s) destroyed in cycle 1.
+0 dead arc(s) removed.
+39 inner edge(s) with coverage lower than or equal to 1 destroyed.
+115 dead arc(s) removed.
+36 edge(s) concatenated in cycle 1.
+0 edge(s) concatenated in cycle 2.
+Before compacting, 99434 edge(s) existed.
+After compacting, 95914 edge(s) left.
+
+Strict: 0, cutoff length: 98.
+22899 tips cut in cycle 1.
+6083 tips cut in cycle 2.
+2369 tips cut in cycle 3.
+1159 tips cut in cycle 4.
+599 tips cut in cycle 5.
+379 tips cut in cycle 6.
+291 tips cut in cycle 7.
+220 tips cut in cycle 8.
+151 tips cut in cycle 9.
+121 tips cut in cycle 10.
+92 tips cut in cycle 11.
+75 tips cut in cycle 12.
+78 tips cut in cycle 13.
+60 tips cut in cycle 14.
+54 tips cut in cycle 15.
+48 tips cut in cycle 16.
+31 tips cut in cycle 17.
+35 tips cut in cycle 18.
+25 tips cut in cycle 19.
+26 tips cut in cycle 20.
+22 tips cut in cycle 21.
+14 tips cut in cycle 22.
+14 tips cut in cycle 23.
+13 tips cut in cycle 24.
+6 tips cut in cycle 25.
+5 tips cut in cycle 26.
+9 tips cut in cycle 27.
+5 tips cut in cycle 28.
+4 tips cut in cycle 29.
+9 tips cut in cycle 30.
+2 tips cut in cycle 31.
+1 tips cut in cycle 32.
+0 tips cut in cycle 33.
+6514 dead arc(s) removed.
+4603 edge(s) concatenated in cycle 1.
+166 edge(s) concatenated in cycle 2.
+1 edge(s) concatenated in cycle 3.
+0 edge(s) concatenated in cycle 4.
+Before compacting, 95914 edge(s) existed.
+After compacting, 16576 edge(s) left.
+
+There are 2152 contig(s) longer than 100, sum up 373547 bp, with average length 173.
+The longest length is 869 bp, contig N50 is 170 bp,contig N90 is 129 bp.
+8288 contig(s) longer than 50 output.
+
+Time spent on constructing contig: 0m.
+
+
+********************
+Map
+********************
+
+Parameters: map -s soapdenovo.config -g /home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test -p 2 -K 49 
+
+Kmer size: 49.
+Contig length cutoff: 51.
+
+8288 contig(s), maximum sequence length 869, minimum sequence length 50, maximum name length 10.
+Time spent on parsing contigs file: 0s.
+2 thread(s) initialized.
+Time spent on hashing contigs: 0s.
+339078 node(s) allocated, 345920 kmer(s) in contigs, 345920 kmer(s) processed.
+Time spent on graph construction: 0s.
+
+Time spent on aligning long reads: 0s.
+
+In file: soapdenovo.config, max seq len 100, max name len 256
+2 thread(s) initialized.
+16576 edge(s) in the graph.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P2.fastq
+Current insert size is 200, map_len is 32.
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P1.fastq
+Import reads from file:
+ /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P2.fastq
+Current insert size is 200, map_len is 32.
+
+Total reads         7337030
+Reads in gaps       2753405
+Ratio               37.5%
+Reads on contigs    4352119
+Ratio               59.3%
+17 pe insert size, the largest boundary is 7337030.
+
+LIB(s) information:
+ [LIB] 0, avg_ins 200, reverse 0.
+ [LIB] 1, avg_ins 200, reverse 0.
+ [LIB] 2, avg_ins 200, reverse 0.
+ [LIB] 3, avg_ins 200, reverse 0.
+ [LIB] 4, avg_ins 200, reverse 0.
+ [LIB] 5, avg_ins 200, reverse 0.
+ [LIB] 6, avg_ins 200, reverse 0.
+ [LIB] 7, avg_ins 200, reverse 0.
+ [LIB] 8, avg_ins 200, reverse 0.
+ [LIB] 9, avg_ins 200, reverse 0.
+ [LIB] 10, avg_ins 200, reverse 0.
+ [LIB] 11, avg_ins 200, reverse 0.
+ [LIB] 12, avg_ins 200, reverse 0.
+ [LIB] 13, avg_ins 200, reverse 0.
+ [LIB] 14, avg_ins 200, reverse 0.
+ [LIB] 15, avg_ins 200, reverse 0.
+ [LIB] 16, avg_ins 200, reverse 0.
+Time spent on aligning reads: 62s.
+
+Overall time spent on alignment: 1m.
+
+
+********************
+Scaff
+********************
+
+Parameters: scaff -g /home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test -p 2 
+
+Files for scaffold construction are OK.
+
+There are 17 grad(s), 7337030 read(s), max read len 100.
+Kmer size: 49
+There are 16576 edge(s) in edge file.
+Mask contigs with coverage lower than 4.8 or higher than 96.0, and strict length 0.
+Average contig coverage is 48, 5044 contig(s) masked.
+Mask contigs shorter than 51, 7584 contig(s) masked.
+18818 arc(s) loaded, average weight is 120.
+8288 contig(s) loaded.
+Done loading updated edges.
+Time spent on loading updated edges: 0s.
+
+*****************************************************
+Start to load paired-end reads information.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+For insert size: 200
+ Total PE links                      89748
+ Normal PE links on same contig      66527
+ Incorrect oriented PE links         1
+ PE links of too small insert size   1622
+ PE links of too large insert size   0
+ Correct PE links                    21560
+ Accumulated connections             8756
+Use contigs longer than 200 to estimate insert size: 
+ PE links               10181
+ Average insert size    164
+ SD                     50
+4378 new connections.
+
+All paired-end reads information loaded.
+Time spent on loading paired-end reads information: 3s.
+
+*****************************************************
+Start to construct scaffolds.
+
+***************************
+For insert size: 200
+ Total PE links                74425
+ PE links to masked contigs    71144
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+***************************
+For insert size: 200
+ Total PE links                1
+ PE links to masked contigs    1
+ On same scaffold PE links     0
+Cutoff of PE links to make a reliable connection: 3
+ Active connections    386
+ Weak connections      0
+ Weak ratio            0.0%
+0 circles removed.
+Start to remove transitive connection.
+Total contigs                         16576
+Masked contigs                        12628
+Remained contigs                      3948
+None-outgoing-connection contigs      3584 (90.780136%)
+Single-outgoing-connection contigs    342
+Multi-outgoing-connection contigs     0
+Cycle 1
+ Two-outgoing-connection contigs     22
+ Potential transitive connections    1
+ Transitive connections              1
+ Transitive ratio                    4.5%
+Cycle 2
+ Two-outgoing-connection contigs     21
+ Potential transitive connections    0
+ Transitive connections              0
+ Transitive ratio                    0.0%
+Start to linearize sub-graph.
+ Picked sub-graphs          20
+ Connection-conflict        0
+ Significant overlapping    14
+ Eligible                   0
+ Bubble structures          0
+Mask repeats:
+ Puzzles           12
+ Masked contigs    12
+Start to remove transitive connection.
+Total contigs                         16576
+Masked contigs                        12652
+Remained contigs                      3924
+None-outgoing-connection contigs      3598 (91.692146%)
+Single-outgoing-connection contigs    326
+Multi-outgoing-connection contigs     0
+Cycle 1
+ Two-outgoing-connection contigs     0
+ Potential transitive connections    0
+ Transitive connections              0
+Start to linearize sub-graph.
+ Picked sub-graphs          0
+ Connection-conflict        0
+ Significant overlapping    0
+ Eligible                   0
+ Bubble structures          0
+Non-strict linearization.
+Start to linearize sub-graph.
+ Picked sub-graphs          0
+ Connection-conflict        0
+ Significant overlapping    0
+ Eligible                   0
+ Bubble structures          0
+Start to mask puzzles.
+ Masked contigs      0
+ Remained puzzles    0
+Freezing done.
+
+Recover contigs.
+ Total recovered contigs    1
+ Single-route cases         1
+ Multi-route cases          0
+
+All links loaded.
+Time spent on constructing scaffolds: 0s.
+
+The final rank
+
+*******************************
+ Scaffold number                  140
+ In-scaffold contig number        2152
+ Total scaffold length            50746
+ Average scaffold length          362
+ Filled gap number                22
+ Longest scaffold                 1824
+ Scaffold and singleton number    1989
+ Scaffold and singleton length    279334
+ Average length                   140
+ N50                              139
+ N90                              99
+ Weak points                      0
+
+*******************************
+
+Done with 140 scaffolds, 0 gaps finished, 164 gaps overall.
+
+Overall time spent on constructing scaffolds: 0m.
+Time for the whole pipeline: 3m.
+finished assembly
