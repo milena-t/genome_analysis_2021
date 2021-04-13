@@ -3,9 +3,9 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 04:00:00
+#SBATCH -t 00:10:00
 #SBATCH -J assembly
-
+ 
 module load bioinfo-tools soapdenovo/2.04-r240
 
 #OUT = '/home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test'
