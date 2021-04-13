@@ -3,7 +3,7 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 00:20:00
+#SBATCH -t 04:00:00
 #SBATCH -J fastQC
 
 module load bioinfo-tools soapdenovo/2.04-r240
