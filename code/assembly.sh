@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 04:00:00
-#SBATCH -J fastQC
+#SBATCH -J assembly
 
 module load bioinfo-tools soapdenovo/2.04-r240
 
