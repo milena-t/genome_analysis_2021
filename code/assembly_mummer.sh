@@ -3,8 +3,8 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 04:00:00
-#SBATCH -J assembly quality control
+#SBATCH -t 00:10:00
+#SBATCH -J assembly_quality_control_mummer
  
 module load python
 module load bioinfo-tools MUMmer/4.0.0rc1
