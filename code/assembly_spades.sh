@@ -10,7 +10,6 @@ module load bioinfo-tools spades/3.14.1
 
 #OUT = '/home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test'
 
-SOAPdenovo-63mer all -s soapdenovo.config -K 49 -p 2 -o /home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test 
-
+spades.py -rna --only-assembler --dataset read_library.yaml -o /home/milenatr/private/genome_analysis_data/spades_assembly
 
 echo 'finished assembly'
