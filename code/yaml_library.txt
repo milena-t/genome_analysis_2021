@@ -1,0 +1,172 @@
+[
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P2.fastq ",
+        ]
+    },
+    {
+        orientation: "fr",
+        type: "paired-end",
+        right reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P1.fastq",
+        ],
+        left reads: [
+          "/home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P2.fastq ",
+        ]
+    },
+]
