@@ -3,7 +3,7 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 04:00:00
+#SBATCH -t 7-00:00:00
 #SBATCH -J assembly
  
 module load bioinfo-tools spades/3.14.1
