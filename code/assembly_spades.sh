@@ -2,7 +2,7 @@
 #SBATCH -A g2021012
 #SBATCH -M snowy
 #SBATCH -p core
-#SBATCH -n 2
+#SBATCH -n 16
 #SBATCH -t 7-00:00:00
 #SBATCH -J assembly
  
