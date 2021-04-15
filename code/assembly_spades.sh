@@ -10,6 +10,7 @@ module load bioinfo-tools spades/3.14.1
 
 #OUT = '/home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test'
 
-spades.py -rna --only-assembler --dataset read_library.yaml -o /home/milenatr/private/genome_analysis_data/spades_assembly
+spades.py -rna --only-assembler --dataset read_library.yaml -t 16 --tmp-dir $SNIC_TMP -k 49 \
+-o /home/milenatr/private/genome_analysis_data/spades_assembly
 
 echo 'finished assembly'
