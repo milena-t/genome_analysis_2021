@@ -1,0 +1,23 @@
+
+The following have been reloaded with a version change:
+  1) python/3.8.7 => python/3.7.2
+
+ERROR! You should specify at least one file with contigs!
+
+QUAST: Quality Assessment Tool for Genome Assemblies
+Version: 5.0.2
+
+Usage: python /sw/bioinfo/quast/5.0.2/snowy/bin/quast.py [options] <files_with_contigs>
+
+Options:
+-o  --output-dir  <dirname>       Directory to store all result files [default: quast_results/results_<datetime>]
+-r                <filename>      Reference genome file
+-g  --features [type:]<filename>  File with genomic feature coordinates in the reference (GFF, BED, NCBI or TXT)
+                                  Optional 'type' can be specified for extracting only a specific feature type from GFF
+-m  --min-contig  <int>           Lower threshold for contig length [default: 500]
+-t  --threads     <int>           Maximum number of threads [default: 25% of CPUs]
+
+These are basic options. To see the full list, use --help
+
+Online QUAST manual is available at http://quast.sf.net/manual
+finished assembly
