@@ -25,7 +25,8 @@ do
     echo ${F[$i]}
     echo ${R[$i]}
 
-    java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE -threads 2 $F $R $OUT_P1 $OUT_U1 $OUT_P2 $OUT_U2 ILLUMINACLIP:$TRIMMOMATIC_HOME/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:20 TRAILING:20 SLIDINGWINDOW:5:20 MINLEN:20 
+    java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE -threads 2 $F $R $OUT_P1 $OUT_U1 $OUT_P2 $OUT_U2 \
+    ILLUMINACLIP:$TRIMMOMATIC_HOME/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20 
     
     echo 'finished trim'
 
