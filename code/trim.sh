@@ -3,7 +3,7 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 00:20:00
+#SBATCH -t 03:00:00
 #SBATCH -J fastQC
 
 module load bioinfo-tools trimmomatic/0.36
