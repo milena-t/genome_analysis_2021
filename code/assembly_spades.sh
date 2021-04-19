@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 16
 #SBATCH -t 5-00:00:00
-#SBATCH -J assembly
+#SBATCH -J assembly_spades
  
 module load bioinfo-tools spades/3.14.1
 
