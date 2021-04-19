@@ -9,9 +9,9 @@
 module load bioinfo-tools trimmomatic/0.36
 module load java/sun_jdk1.8.0_151
 
-F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*1P.fastq.gz)
+F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*1P.fastq.gz)
 #forward paired reads
-R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/*2P.fastq.gz)
+R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*2P.fastq.gz)
 #reverse paired reads
 
 OUT_DIR="/home/milenatr/private/genome_analysis_data/trim_by_me"
