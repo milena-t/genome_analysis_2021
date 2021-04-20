@@ -14,7 +14,7 @@ module load bioinfo-tools quast/5.0.2
 # query = /home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test.contig
 
 python /sw/bioinfo/quast/5.0.2/snowy/bin/quast.py \
--o /home/milenatr/private/genome_analysis_2021_git/files/assembly_quality_results \
+-o /home/milenatr/private/genome_analysis_2021_git/files/soapdenovo_assembly_quality_results \
 -r /home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna.gz \
 --min-contig 50 -t 2 --eukaryote \
 /home/milenatr/private/genome_analysis_data/soap_assembly/soap_assembly.contig
