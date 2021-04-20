@@ -18,10 +18,10 @@ OUT_DIR="/home/milenatr/private/genome_analysis_data/trim_by_me"
 
 for i in ${!R[*]}
 do  
-    OUT_P1="$OUT_DIR/${F[i]:69:10}_P1.fastq"
-    OUT_P2="$OUT_DIR/${F[i]:69:10}_P2.fastq"
-    OUT_U1="$OUT_DIR/${F[i]:69:10}_U1.fastq"
-    OUT_U2="$OUT_DIR/${F[i]:69:10}_u2.fastq"
+    OUT_P1="$OUT_DIR/${F[i]:61:10}_P1.fastq"
+    OUT_P2="$OUT_DIR/${F[i]:61:10}_P2.fastq"
+    OUT_U1="$OUT_DIR/${F[i]:61:10}_U1.fastq"
+    OUT_U2="$OUT_DIR/${F[i]:61:10}_U2.fastq"
     echo ${F[$i]}
     echo ${R[$i]}
 
