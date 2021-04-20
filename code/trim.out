@@ -1,172 +1,62 @@
 	trimmomatic 0.36 loaded, see 'module help trimmomatic/0.36' for more information.
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_2P.fastq.gz
 TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719013_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
+ -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819794_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819794_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819794_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819794_U2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
+Input Read Pairs: 8314329 Both Surviving: 8273173 (99.50%) Forward Only Surviving: 39445 (0.47%) Reverse Only Surviving: 1669 (0.02%) Dropped: 42 (0.00%)
 TrimmomaticPE: Completed successfully
 finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719014.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719014.trim_2P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819795.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819795.trim_2P.fastq.gz
 TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719014_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
+ -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819795_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819795_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819795_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819795_U2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
+Input Read Pairs: 8314329 Both Surviving: 8273173 (99.50%) Forward Only Surviving: 39445 (0.47%) Reverse Only Surviving: 1669 (0.02%) Dropped: 42 (0.00%)
 TrimmomaticPE: Completed successfully
 finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719015.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719015.trim_2P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819796.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819796.trim_2P.fastq.gz
 TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719015_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
+ -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819796_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819796_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819796_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819796_U2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
+Input Read Pairs: 8314329 Both Surviving: 8273173 (99.50%) Forward Only Surviving: 39445 (0.47%) Reverse Only Surviving: 1669 (0.02%) Dropped: 42 (0.00%)
 TrimmomaticPE: Completed successfully
 finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719016.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719016.trim_2P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819797.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819797.trim_2P.fastq.gz
 TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719016_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
+ -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819797_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819797_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819797_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819797_U2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
+Input Read Pairs: 8314329 Both Surviving: 8273173 (99.50%) Forward Only Surviving: 39445 (0.47%) Reverse Only Surviving: 1669 (0.02%) Dropped: 42 (0.00%)
 TrimmomaticPE: Completed successfully
 finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719017.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719017.trim_2P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819798.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819798.trim_2P.fastq.gz
 TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719017_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
+ -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819798_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819798_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819798_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819798_U2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
+Input Read Pairs: 8314329 Both Surviving: 8273173 (99.50%) Forward Only Surviving: 39445 (0.47%) Reverse Only Surviving: 1669 (0.02%) Dropped: 42 (0.00%)
 TrimmomaticPE: Completed successfully
 finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719018.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719018.trim_2P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819799.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819799.trim_2P.fastq.gz
 TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719018_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
+ -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR5819794.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819799_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819799_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819799_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR5819799_U2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
 Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
 ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
 Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719204.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719204.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719204_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719206.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719206.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719206_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719207.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719207.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719207_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719208.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719208.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719208_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719209.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719209.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719209_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719211.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719211.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719211_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719212.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719212.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719212_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719213.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719213.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719213_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719214.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719214.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719214_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719241.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719241.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719241_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
-TrimmomaticPE: Completed successfully
-finished trim
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719242.trim_1P.fastq.gz
-/home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719242.trim_2P.fastq.gz
-TrimmomaticPE: Started with arguments:
- -threads 2 /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_1P.fastq.gz /home/milenatr/private/genome_analysis_data/rna_s1_trim/trimmed/sel1_SRR1719013.trim_2P.fastq.gz /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_U1.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_P2.fastq /home/milenatr/private/genome_analysis_data/trim_by_me/SRR1719242_u2.fastq ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/rackham/adapters/TruSeq3-PE.fa:2:20:7:2:true LEADING:17 TRAILING:17 SLIDINGWINDOW:5:17 MINLEN:20
-Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
-ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Quality encoding detected as phred33
-Input Read Pairs: 217468 Both Surviving: 217219 (99.89%) Forward Only Surviving: 215 (0.10%) Reverse Only Surviving: 33 (0.02%) Dropped: 1 (0.00%)
+Input Read Pairs: 8314329 Both Surviving: 8273173 (99.50%) Forward Only Surviving: 39445 (0.47%) Reverse Only Surviving: 1669 (0.02%) Dropped: 42 (0.00%)
 TrimmomaticPE: Completed successfully
 finished trim
 Finished
