@@ -10,7 +10,8 @@ module load bioinfo-tools soapdenovo/2.04-r240
 
 #OUT = '/home/milenatr/private/genome_analysis_data/soap_assembly/assembly_test'
 
-SOAPdenovo-63mer all -s soapdenovo.config -K 49 -p 2 -o /home/milenatr/private/genome_analysis_data/soap_assembly/soap_assembly 
+SOAPdenovo-63mer all -s soapdenovo.config -K 49 -p 2 \
+-o /home/milenatr/private/genome_analysis_data/soap_assembly/soap_assembly 
 
 
 echo 'finished assembly'
