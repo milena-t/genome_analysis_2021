@@ -20,11 +20,12 @@ module load GeneMark/4.33-es_Perl5.24.1
 cd /home/milenatr/private/genome_analysis_data/braker_annotation 
 
 breaker.pl \
---genome /home/milenatr/private/genome_analysis_data/soap_assembly/soap_assembly.contig \
+--genome /home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna.gz \
 --cores 8 \
 --AUGUSTUS_CONFIG_PATH=/home/milenatr/private/genome_analysis_2021/code/augustus_config \
 --AUGUSTUS_BIN_PATH=/sw/bioinfo/augustus/3.4.0/snowy/bin \
 --AUGUSTUS_SCRIPTS_PATH=/sw/bioinfo/augustus/3.4.0/snowy/scripts \
 --GENEMARK_PATH=/sw/bioinfo/GeneMark/4.33-es/snowy
+
 
 echo 'finished annotation'
