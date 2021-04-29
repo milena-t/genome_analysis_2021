@@ -2,7 +2,7 @@
 #SBATCH -A g2021012
 #SBATCH -M snowy
 #SBATCH -p core
-#SBATCH -n 8
+#SBATCH -n 2
 #SBATCH -t 05:00:00
 #SBATCH -J annotation_braker
 
@@ -19,9 +19,9 @@ module load GeneMark/4.33-es_Perl5.24.1
 # change directory to save output there
 cd /home/milenatr/private/genome_analysis_data/braker_annotation 
 
-breaker.pl \
+braker.pl \
 --genome /home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna.gz \
---cores 8 \
+--cores 2 \
 --AUGUSTUS_CONFIG_PATH=/home/milenatr/private/genome_analysis_2021/code/augustus_config \
 --AUGUSTUS_BIN_PATH=/sw/bioinfo/augustus/3.4.0/snowy/bin \
 --AUGUSTUS_SCRIPTS_PATH=/sw/bioinfo/augustus/3.4.0/snowy/scripts \
