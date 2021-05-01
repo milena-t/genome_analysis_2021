@@ -14,23 +14,28 @@ module load RepeatScout/1.0.6
 
 MASKING=/home/milenatr/private/genome_analysis_data/repeat_masking
 DATA=/home/milenatr/private/genome_analysis_data/example_scaffold
-
+echo '------build_lmer_table--------------------------------------------------'
 build_lmer_table -$DATA/sel1_NW_015504190.fna.gz -freq $MASKING/genome.freq
 echo 'finished build_lmer_table'
 
+echo '------repeatScout-------------------------------------------------------'
 RepeatScout -sequence $DATA/sel1_NW_015504190.fna.gz -output $MASKING/genome.repseq.fa -freq $MASKING/genome.freq
 echo 'finished repeat scout'
 
+echo '------cat: rempve bad repeats--------------------------------------------'
 cat $MASKING/genome.repseq.fa | filter-stage-1.prl > $MASKING/genome.repseq.f1.fa
 echo 'finished remove repeats that are too short or too simple'
 
+echo '------RepeatMAsker1------------------------------------------------------'
 RepeatMasker $DATA/sel1_NW_015504190.fna.gz -e ncbi -lib $MASKING/genome.repseq.f1.fa -dir $MASKING
 echo 'finished repeat masking'
 
+echo '------cat: reomve bad repeats 2------------------------------------------'
 cat $MASKING/genome.repseq.f1.fa | filter-stage-2.prl --cat=$MASKING/genome.fa.out > $MASKING/genome.repseq.f2.fa
 grep -c ">" $MASKING/genome.repseq.fa $MASKING/genome.repseq.f1.fa $MASKING/genome.repseq.f2.fa
 echo 'finish filter out repeats that do not occur often enough'
 
+echo '------RepeatMasker2------------------------------------------------------'
 RepeatMasker $DATA/sel1_NW_015504190.fna.gz -e ncbi -lib $MASKING/genome.repseq.f2.fa -dir $MASKING -xsmall  # takes ~1m
 mv $MASKING/genome.fa.masked $MASKING/genome.fa.softmasked
 echo 'finish making softmasked genome'
