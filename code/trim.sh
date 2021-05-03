@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 03:00:00
-#SBATCH -J fastQC
+#SBATCH -J trim
 
 module load bioinfo-tools trimmomatic/0.36
 module load java/sun_jdk1.8.0_151
