@@ -16,7 +16,7 @@ INDEX=/home/milenatr/private/genome_analysis_data/mapping/index
 STAR --runThreadN 2 \
 --runMode genomeGenerate \
 --genomeDir $INDEX \
---genomeFastaFiles $REFDIR/sel1_NW_015504190.fna.gz \
+--genomeFastaFiles $REFDIR/sel1_NW_015504190.fna \
 #--sjdbOverhang 99
 
 
