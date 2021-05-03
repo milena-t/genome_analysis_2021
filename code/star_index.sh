@@ -17,7 +17,7 @@ STAR --runThreadN 2 \
 --runMode genomeGenerate \
 --genomeDir $INDEX \
 --genomeFastaFiles $REFDIR/sel1_NW_015504190.fna.gz \
---sjdbOverhang 99
+#--sjdbOverhang 99
 
 
 echo 'finished mapping'
