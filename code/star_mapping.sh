@@ -25,6 +25,9 @@ OUT_DIR="/home/milenatr/private/genome_analysis_data/trim_by_me"
 
 for i in ${!R[*]}
 do  
+    echo '------------currently mapping: '
+    echo ${F[i]}
+    echo ${R[i]}
     STAR --genomeDir $INDEX \
     --runThreadN 2 \
     --readFilesIn ${F[i]} ${R[i]}\
@@ -32,6 +35,7 @@ do
     --outSAMtype BAM SortedByCoordinate \
     --outSAMunmapped Within \
     --outSAMattributes Standard 
+    echo '-------------------------------------------------------------'
 done
 
 
