@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 05:00:00
-#SBATCH -J index_Star
+#SBATCH -J map_STAR
 
 # all modules required for braker
 module load bioinfo-tools
@@ -21,7 +21,6 @@ F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*1P.fastq.gz)
 R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*2P.fastq.gz)
 #reverse paired reads
 
-OUT_DIR="/home/milenatr/private/genome_analysis_data/trim_by_me"
 
 for i in ${!R[*]}
 do  
