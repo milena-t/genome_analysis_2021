@@ -35,11 +35,10 @@ do
     --readFilesIn ${F[i]} ${R[i]}\
     --readFilesCommand zcat \
     --outFileNamePrefix $OUT/${F[i]:61:10}_ \
-    --outTmpDir $SNIC_TMP \
     --outSAMtype BAM SortedByCoordinate \
     --outSAMunmapped Within \
     --outSAMattributes Standard 
-    
+
     echo '-------------------------------------------------------------'
 done
 
