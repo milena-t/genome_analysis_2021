@@ -27,6 +27,9 @@ do
     echo '------------currently mapping: '
     echo ${F[i]}
     echo ${R[i]}
+    echo 'to: '
+    echo $OUT/${F[i]:61:10}
+    
     STAR --genomeDir $INDEX \
     --runThreadN 2 \
     --readFilesIn ${F[i]} ${R[i]}\
@@ -37,10 +40,5 @@ do
     --outSAMattributes Standard 
     echo '-------------------------------------------------------------'
 done
-
-
-
-
-
 
 echo 'finished mapping'
