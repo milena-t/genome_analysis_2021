@@ -33,12 +33,13 @@ do
     STAR --genomeDir $INDEX \
     --runThreadN 2 \
     --readFilesIn ${F[i]} ${R[i]}\
-    --readFilesCommand zcat 
+    --readFilesCommand zcat \
     --outFileNamePrefix $OUT/${F[i]:61:10}_ \
-    --outTmpDir $SNIC_TMP
+    --outTmpDir $SNIC_TMP \
     --outSAMtype BAM SortedByCoordinate \
     --outSAMunmapped Within \
     --outSAMattributes Standard 
+    
     echo '-------------------------------------------------------------'
 done
 
