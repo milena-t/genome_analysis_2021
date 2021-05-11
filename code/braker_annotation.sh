@@ -18,17 +18,11 @@ module load GeneMark/4.33-es_Perl5.24.1
 
 BAM_FILES=\
 /home/milenatr/private/genome_analysis_data/mapping/results/SRR1719013_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719016_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719204_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719208_Aligned.sortedByCoord.out.bam,\
 /home/milenatr/private/genome_analysis_data/mapping/results/SRR1719014_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719017_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719206_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719209_Aligned.sortedByCoord.out.bam,\
 /home/milenatr/private/genome_analysis_data/mapping/results/SRR1719015_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719018_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719207_Aligned.sortedByCoord.out.bam,\
-/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719211_Aligned.sortedByCoord.out.bam
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719016_Aligned.sortedByCoord.out.bam,\
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719017_Aligned.sortedByCoord.out.bam,\
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719018_Aligned.sortedByCoord.out.bam
 
 #species directory /home/milenatr/private/genome_analysis_data/braker_annotation/species
 #bam files directory /home/milenatr/private/genome_analysis_data/mapping/results/*.bam
