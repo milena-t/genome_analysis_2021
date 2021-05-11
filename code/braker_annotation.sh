@@ -41,7 +41,7 @@ braker.pl \
 --genome /home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna.gz \
 --bam=$BAM_FILES \
 --softmasking \
---cores 2 \ 
+--cores 2 \
 --AUGUSTUS_CONFIG_PATH=/home/milenatr/private/genome_analysis_data/braker_annotation/config \
 --AUGUSTUS_BIN_PATH=/sw/bioinfo/augustus/3.4.0/snowy/bin \
 --AUGUSTUS_SCRIPTS_PATH=/sw/bioinfo/augustus/3.4.0/snowy/scripts \
