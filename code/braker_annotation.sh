@@ -36,12 +36,13 @@ BAM_FILES=\
 # change directory to save output there
 cd /home/milenatr/private/genome_analysis_data/braker_annotation 
 
-braker.pl \
+/sw/bioinfo/braker/2.1.1/snowy/braker.pl \
 --species=m.natalensis \
 --genome /home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna \
 --bam=$BAM_FILES \
 --softmasking \
 --cores 2 \
+--useexisting \
 --AUGUSTUS_CONFIG_PATH=/home/milenatr/private/genome_analysis_data/braker_annotation/augustus_config \
 --AUGUSTUS_BIN_PATH=/sw/bioinfo/augustus/3.4.0/snowy/bin \
 --AUGUSTUS_SCRIPTS_PATH=/sw/bioinfo/augustus/3.4.0/snowy/scripts \
