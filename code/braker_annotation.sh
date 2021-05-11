@@ -38,7 +38,7 @@ cd /home/milenatr/private/genome_analysis_data/braker_annotation
 
 braker.pl \
 --species=m.natalensis \
---genome /home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna.gz \
+--genome /home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna \
 --bam=$BAM_FILES \
 --softmasking \
 --cores 2 \
