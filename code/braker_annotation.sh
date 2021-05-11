@@ -42,7 +42,7 @@ braker.pl \
 --bam=$BAM_FILES \
 --softmasking \
 --cores 2 \
---AUGUSTUS_CONFIG_PATH=/home/milenatr/private/genome_analysis_data/braker_annotation/config \
+#--AUGUSTUS_CONFIG_PATH=/home/milenatr/private/genome_analysis_data/braker_annotation/config \
 --AUGUSTUS_BIN_PATH=/sw/bioinfo/augustus/3.4.0/snowy/bin \
 --AUGUSTUS_SCRIPTS_PATH=/sw/bioinfo/augustus/3.4.0/snowy/scripts \
 --GENEMARK_PATH=/sw/bioinfo/GeneMark/4.33-es/snowy
