@@ -48,4 +48,5 @@ braker.pl \
 --GENEMARK_PATH=/sw/bioinfo/GeneMark/4.33-es/snowy
 
 
+
 echo 'finished annotation'
