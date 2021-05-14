@@ -6,9 +6,12 @@
 #SBATCH -t 05:00:00
 #SBATCH -J convert_gff_to_fasta
 
+#unzip .gff file:
+# gzip -d -c /proj/g2021012/2_Eckalbar_2016/additional_data/GCF_001595765.1_Mnat.v1_genomic.gff.gz > /home/milenatr/private/genome_analysis_data/gff_annotation/GCF_001595765.1_Mnat.v1_genomic.gff
+
 module load bioinfo-tools cufflinks/2.2.1
 
-GFF=/home/milenatr/private/genome_analysis_data/gff_annotation/GCF_001595765.1_Mnat.v1_genomic.gff.gz
+GFF=/home/milenatr/private/genome_analysis_data/gff_annotation/GCF_001595765.1_Mnat.v1_genomic.gff
 GENOME=/home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna
 OUT=/home/milenatr/private/genome_analysis_data/gff_annotation/gff_protein.fasta
 
