@@ -13,3 +13,5 @@ The whole dataset used in this paper is too large and calculations would too lon
 - Transcriptomics of forelimbs and hindlimbs at 3 developmental stages (CS15, CS16, CS17)
 - ChIP-seq of H3K27me3 (active regions) and H3K27ac (repressed regions) histone modification at the three stages
 
+# Results
+All results and output files are saved in my uppmax directory. They have not been synchronized with GitHub to save storage space. The standard output for all files is in the code directory, named according to the program or step that generated it with the .out file ending. All results are in a directory called genome_analysis_data outside the git directory, where they are sorted into accordingly named subfolders.
