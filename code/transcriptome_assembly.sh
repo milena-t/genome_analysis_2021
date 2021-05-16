@@ -8,6 +8,8 @@
  
 module load bioinfo-tools trinity/2014-07-17
 
+#--samples_file trinity_input.txt \
+
 #forward paired reads (NOT USED)
 F=\
 /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_1P.fastq.gz,\
@@ -52,8 +54,8 @@ OUT=/home/milenatr/private/genome_analysis_data/trinity
 
 Trinity \
 --seqType fq \
---max_memory 14G \
---samples_file trinity_input.txt \
+--left $F \
+--right $R \
 --SS_lib_type RF \
 --CPU 2 \
 --output /home/milenatr/private/genome_analysis_data/trinity
