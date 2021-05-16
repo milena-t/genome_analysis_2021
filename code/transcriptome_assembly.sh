@@ -54,6 +54,7 @@ OUT=/home/milenatr/private/genome_analysis_data/trinity
 
 Trinity \
 --seqType fq \
+--JM 10G \
 --left $F \
 --right $R \
 --SS_lib_type RF \
