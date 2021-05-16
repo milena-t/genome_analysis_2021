@@ -6,6 +6,8 @@
 #SBATCH -t 01:00:00
 #SBATCH -J htseq_count
 
+module load bioinfo-tools htseq/0.12.4
+
 F=(/home/milenatr/private/genome_analysis_data/mapping/results/*.bam)
 OUT=/home/milenatr/private/genome_analysis_data/htseq_counting
 GFF=/home/milenatr/private/genome_analysis_data/gff_annotation/GCF_001595765.1_Mnat.v1_genomic.gff
