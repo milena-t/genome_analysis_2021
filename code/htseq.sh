@@ -24,7 +24,7 @@ do
     -r pos \
     -s yes \
     -a 10 \
-    -i gene_id \
+    -i ID \
     ${F[i]} \
     $GFF \
     >$OUT/${F[i]:61:10}
