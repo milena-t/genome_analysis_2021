@@ -16,3 +16,10 @@ GENOME=/home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_0155
 OUT=/home/milenatr/private/genome_analysis_data/gff_annotation/gff_protein.fasta
 
 gffread -w $OUT -g $GENOME $GFF
+
+##error
+#Warning: couldn't find fasta record for 'NW_015503911.1'!
+#Warning: getSpliced(NULL,.. ) called!
+
+#copy files to local computer to run eggnogmapper:
+#rsync -azP milenatr@rackham.uppmax.uu.se:/home/milenatr/private/genome_analysis_data/gff_annotation/gff_protein.fasta 
