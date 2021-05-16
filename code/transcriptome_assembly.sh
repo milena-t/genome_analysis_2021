@@ -7,6 +7,7 @@
 #SBATCH -J trinity_transcriptome_Assembly
  
 module load bioinfo-tools trinity/2014-07-17
+module load java/sun_jdk1.7.0_25
 
 #--samples_file trinity_input.txt \
 
