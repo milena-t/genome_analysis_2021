@@ -1,8 +1,9 @@
+#! /bin/bash
 #SBATCH -A g2021012
 #SBATCH -M snowy
 #SBATCH -p core
-#SBATCH -n 2
-#SBATCH -t 05:00:00
+#SBATCH -n 1
+#SBATCH -t 01:00:00
 #SBATCH -J htseq_count
 
 F=(/home/milenatr/private/genome_analysis_data/mapping/results/*.bam)
