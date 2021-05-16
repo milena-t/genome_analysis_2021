@@ -52,8 +52,8 @@ OUT=/home/milenatr/private/genome_analysis_data/trinity
 
 Trinity \
 --seqType fq \
---max_memory 14 \
---samples_file trinity_input.csv \
+--max_memory 14G \
+--samples_file trinity_input.txt \
 --SS_lib_type RF \
 --CPU 2 \
 --output /home/milenatr/private/genome_analysis_data/trinity
