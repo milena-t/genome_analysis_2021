@@ -60,6 +60,7 @@ Trinity \
 --right $R \
 --SS_lib_type RF \
 --CPU 2 \
+--no_bowtie \
 --output /home/milenatr/private/genome_analysis_data/trinity
 
 
