@@ -64,5 +64,4 @@ Trinity \
 --output /home/milenatr/private/genome_analysis_data/trinity
 
 
-
 echo "finished transcriptome assembly"
