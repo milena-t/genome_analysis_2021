@@ -9,7 +9,7 @@
 module load bioinfo-tools trinity/2014-07-17
 module load java/sun_jdk1.7.0_25
 
-#--samples_file trinity_input.txt \
+#--samples_file trinity_input.txt did not work, it did not recognize the command
 
 #forward paired reads (NOT USED)
 F=\
@@ -58,6 +58,8 @@ Trinity \
 --JM 10G \
 --left $F \
 --right $R \
+--genome_guided_bam /home/milenatr/private/genome_analysis_data/mapping/results/SRR1719013_Aligned.sortedByCoord.out.bam \
+--genome_guided_max_intron 10000 \
 --SS_lib_type RF \
 --CPU 2 \
 --no_bowtie \
