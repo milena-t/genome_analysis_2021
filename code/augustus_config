@@ -1,0 +1,19 @@
+SCRIPT_NAME="augustus_config_copy"
+TOOLVERSION=3.4.0
+
+[[ "${0##*/}" != "$SCRIPT_NAME" ]] || { echo -e "\nThis script must be run using 'source', see 'module help augustus/$TOOLVERSION'\n"; exit; }
+
+[[ "$AUGUSTUS_CONFIG_COPY" && "$AUGUSTUS_CONFIG_PATH" ]] || { echo -e "\nThis must be run after the augustus/$TOOLVERSION module is loaded.\n"; return; }
+
+[[ -d "$AUGUSTUS_CONFIG_PATH" ]] || { echo -e "\nFor some reason the augustus config directory ($AUGUSTUS_CONFIG_PATH) does not exist.\n"; return; }
+
+_AUGUSTUS_CONFIG_PATH=$PWD/augustus_config
+echo -n "Copying Augustus config directory to current directory..."
+cp -a $AUGUSTUS_CONFIG_PATH $_AUGUSTUS_CONFIG_PATH
+echo -n "adjusting permissions..."
+chmod -R ug+w $_AUGUSTUS_CONFIG_PATH
+echo -n "updating AUGUSTUS_CONFIG_PATH..."
+export AUGUSTUS_CONFIG_PATH=$_AUGUSTUS_CONFIG_PATH
+unset _AUGUSTUS_CONFIG_PATH
+echo "done"
+echo "export AUGUSTUS_CONFIG_PATH=$AUGUSTUS_CONFIG_PATH"

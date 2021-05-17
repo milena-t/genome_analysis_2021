@@ -1,0 +1,178 @@
+Current settings:
+core file size          (blocks, -c) 20
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 514828
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 8192000
+open files                      (-n) 16384
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+
+-since butterfly will eventually be run, lets test for proper execution of java
+#######################################
+Running Java Tests
+Monday, May 17, 2021: 00:25:05	CMD: java -Xmx64m -jar /sw/bioinfo/trinity/2014-07-17/irma/util/support_scripts/ExitTester.jar 0
+CMD finished (0 seconds)
+Monday, May 17, 2021: 00:25:05	CMD: java -Xmx64m -jar /sw/bioinfo/trinity/2014-07-17/irma/util/support_scripts/ExitTester.jar 1
+-we properly captured the java failure status, as needed.  Looking good.
+Java tests succeeded.
+###################################
+
+Monday, May 17, 2021: 00:25:06	CMD: mkdir -p /home/milenatr/private/genome_analysis_data/trinity/chrysalis
+CMD finished (0 seconds)
+Converting input files. (in parallel)Monday, May 17, 2021: 00:25:06	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_1P.fastq
+Monday, May 17, 2021: 00:25:06	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_2P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:07	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_2P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:07	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_1P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:09	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:09	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_1P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:10	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_2P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:10	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_1P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:12	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:12	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_1P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:13	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_2P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:13	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_1P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:14	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:15	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_1P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:16	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_2P.fastq
+CMD finished (3 seconds)
+Monday, May 17, 2021: 00:25:18	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_1P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:18	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_2P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:19	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:20	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_1P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:21	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_2P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:21	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_1P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:22	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:23	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_1P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:23	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:25	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_1P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:25	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:27	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:27	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_1P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:29	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_2P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:29	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_1P.fastq
+CMD finished (3 seconds)
+Monday, May 17, 2021: 00:25:32	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_1P.fastq
+CMD finished (3 seconds)
+Monday, May 17, 2021: 00:25:32	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_2P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_2P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:33	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_2P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:34	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_1P.fastq
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:35	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:36	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:37	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_2P.fastq.readcount 
+CMD finished (3 seconds)
+Monday, May 17, 2021: 00:25:37	CMD: gunzip -c /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_1P.fastq.gz > /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_1P.fastq
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:38	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_2P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:39	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:39	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:40	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:40	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:41	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_1P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:42	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:42	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_1P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:44	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_1P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:44	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:45	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:45	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_2P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:47	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_2P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:47	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:48	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:48	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:49	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:49	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:50	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:50	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:51	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_2P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:51	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:52	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_2P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:53	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:54	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_1P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:54	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_2P.fastq >> right.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_2P.fastq.readcount 
+CMD finished (2 seconds)
+Monday, May 17, 2021: 00:25:56	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_1P.fastq.readcount 
+CMD finished (2 seconds)
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:57	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:58	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Monday, May 17, 2021: 00:25:59	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/fastool/fastool --rev  --illumina-trinity --to-fasta /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_1P.fastq >> left.fa 2> /home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_1P.fastq.readcount 
+CMD finished (1 seconds)
+Done converting input files.Monday, May 17, 2021: 00:26:00	CMD: cat left.fa right.fa > both.fa
+CMD finished (14 seconds)
+-------------------------------------------
+----------- Jellyfish  --------------------
+-- (building a k-mer catalog from reads) --
+-------------------------------------------
+
+Monday, May 17, 2021: 00:26:14	CMD: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/jellyfish/bin/jellyfish count -t 2 -m 25 -s 1376883510  both.fa
+Error, cmd: /sw/bioinfo/trinity/2014-07-17/irma/trinity-plugins/jellyfish/bin/jellyfish count -t 2 -m 25 -s 1376883510  both.fa died with ret 9 at /sw/bioinfo/trinity/2014-07-17/rackham/Trinity line 1990.
+finished transcriptome assembly
+slurmstepd: error: Detected 1 oom-kill event(s) in step 4741219.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

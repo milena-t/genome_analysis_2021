@@ -1,0 +1,205 @@
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719013.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719013
+May 16 23:12:29 ..... started STAR run
+May 16 23:12:29 ..... loading genome
+May 16 23:12:43 ..... started mapping
+May 16 23:20:07 ..... finished mapping
+May 16 23:20:07 ..... started sorting BAM
+May 16 23:20:11 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719014.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719014
+May 16 23:20:11 ..... started STAR run
+May 16 23:20:11 ..... loading genome
+May 16 23:20:12 ..... started mapping
+May 16 23:27:23 ..... finished mapping
+May 16 23:27:23 ..... started sorting BAM
+May 16 23:27:28 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719015.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719015
+May 16 23:27:28 ..... started STAR run
+May 16 23:27:28 ..... loading genome
+May 16 23:27:29 ..... started mapping
+May 16 23:36:54 ..... finished mapping
+May 16 23:36:55 ..... started sorting BAM
+May 16 23:36:59 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719016.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719016
+May 16 23:36:59 ..... started STAR run
+May 16 23:36:59 ..... loading genome
+May 16 23:37:00 ..... started mapping
+May 16 23:45:53 ..... finished mapping
+May 16 23:45:54 ..... started sorting BAM
+May 16 23:45:58 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719017.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719017
+May 16 23:45:58 ..... started STAR run
+May 16 23:45:58 ..... loading genome
+May 16 23:45:59 ..... started mapping
+May 16 23:54:26 ..... finished mapping
+May 16 23:54:26 ..... started sorting BAM
+May 16 23:54:31 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719018.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719018
+May 16 23:54:31 ..... started STAR run
+May 16 23:54:31 ..... loading genome
+May 16 23:54:32 ..... started mapping
+May 17 00:03:50 ..... finished mapping
+May 17 00:03:50 ..... started sorting BAM
+May 17 00:03:54 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719204.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719204
+May 17 00:03:54 ..... started STAR run
+May 17 00:03:55 ..... loading genome
+May 17 00:03:55 ..... started mapping
+May 17 00:13:58 ..... finished mapping
+May 17 00:13:58 ..... started sorting BAM
+May 17 00:14:03 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719206.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719206
+May 17 00:14:03 ..... started STAR run
+May 17 00:14:03 ..... loading genome
+May 17 00:14:04 ..... started mapping
+May 17 00:24:21 ..... finished mapping
+May 17 00:24:22 ..... started sorting BAM
+May 17 00:24:26 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719207.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719207
+May 17 00:24:27 ..... started STAR run
+May 17 00:24:27 ..... loading genome
+May 17 00:24:28 ..... started mapping
+May 17 00:32:29 ..... finished mapping
+May 17 00:32:30 ..... started sorting BAM
+May 17 00:32:34 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719208.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719208
+May 17 00:32:34 ..... started STAR run
+May 17 00:32:34 ..... loading genome
+May 17 00:32:35 ..... started mapping
+May 17 00:39:43 ..... finished mapping
+May 17 00:39:43 ..... started sorting BAM
+May 17 00:39:47 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719209.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719209
+May 17 00:39:47 ..... started STAR run
+May 17 00:39:48 ..... loading genome
+May 17 00:39:49 ..... started mapping
+May 17 00:46:12 ..... finished mapping
+May 17 00:46:12 ..... started sorting BAM
+May 17 00:46:16 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719211.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719211
+May 17 00:46:16 ..... started STAR run
+May 17 00:46:16 ..... loading genome
+May 17 00:46:17 ..... started mapping
+May 17 00:54:04 ..... finished mapping
+May 17 00:54:04 ..... started sorting BAM
+May 17 00:54:09 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719212.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719212
+May 17 00:54:09 ..... started STAR run
+May 17 00:54:09 ..... loading genome
+May 17 00:54:10 ..... started mapping
+May 17 01:05:03 ..... finished mapping
+May 17 01:05:04 ..... started sorting BAM
+May 17 01:05:08 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719213.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719213
+May 17 01:05:08 ..... started STAR run
+May 17 01:05:08 ..... loading genome
+May 17 01:05:09 ..... started mapping
+May 17 01:13:19 ..... finished mapping
+May 17 01:13:19 ..... started sorting BAM
+May 17 01:13:23 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719214.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719214
+May 17 01:13:23 ..... started STAR run
+May 17 01:13:24 ..... loading genome
+May 17 01:13:24 ..... started mapping
+May 17 01:22:20 ..... finished mapping
+May 17 01:22:20 ..... started sorting BAM
+May 17 01:22:25 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719241.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719241
+May 17 01:22:25 ..... started STAR run
+May 17 01:22:25 ..... loading genome
+May 17 01:22:26 ..... started mapping
+May 17 01:31:35 ..... finished mapping
+May 17 01:31:36 ..... started sorting BAM
+May 17 01:31:41 ..... finished successfully
+-------------------------------------------------------------
+------------currently mapping: 
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_1P.fastq.gz
+/home/milenatr/private/genome_analysis_data/rna_s1_trim/sel1_SRR1719242.trim_2P.fastq.gz
+to: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719242
+May 17 01:31:41 ..... started STAR run
+May 17 01:31:41 ..... loading genome
+May 17 01:31:42 ..... started mapping
+May 17 01:40:08 ..... finished mapping
+May 17 01:40:08 ..... started sorting BAM
+May 17 01:40:12 ..... finished successfully
+-------------------------------------------------------------
+finished mapping

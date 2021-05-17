@@ -1,0 +1,150 @@
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719013_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719013_
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719013_Aligned.sortedByCoord.out.bam'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719013_Aligned.sortedByCoord.out.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+217468 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719014_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719014_
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719014_Aligned.sortedByCoord.out.bam'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719014_Aligned.sortedByCoord.out.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+232185 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719015_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719015_
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719015_Aligned.sortedByCoord.out.bam'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719015_Aligned.sortedByCoord.out.bam'
+100000 alignment record pairs processed.
+178247 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719016_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719016_
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719016_Aligned.sortedByCoord.out.bam'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719016_Aligned.sortedByCoord.out.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+218482 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719017_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719017_
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719017_Aligned.sortedByCoord.out.bam'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719017_Aligned.sortedByCoord.out.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+209521 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719018_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719018_
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719018_Aligned.sortedByCoord.out.bam'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719018_Aligned.sortedByCoord.out.bam'
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+213533 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719204_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719204_
+  file does not contain alignment data
+  [Exception type: ValueError, raised in libcalignmentfile.pyx:947]
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719206_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719206_
+  file does not contain alignment data
+  [Exception type: ValueError, raised in libcalignmentfile.pyx:947]
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719207_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719207_
+  file does not contain alignment data
+  [Exception type: ValueError, raised in libcalignmentfile.pyx:947]
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719208_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719208_
+  file does not contain alignment data
+  [Exception type: ValueError, raised in libcalignmentfile.pyx:947]
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719209_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719209_
+  file does not contain alignment data
+  [Exception type: ValueError, raised in libcalignmentfile.pyx:947]
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/results/SRR1719211_Aligned.sortedByCoord.out.bam
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/RR1719211_
+  file does not contain alignment data
+  [Exception type: ValueError, raised in libcalignmentfile.pyx:947]
+-------------------------------------------------------------
+finished count
