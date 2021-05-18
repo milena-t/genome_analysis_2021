@@ -3,7 +3,7 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 05:00:00
+#SBATCH -t 02:00:00
 #SBATCH -J map_HISAT
 
 module load bioinfo-tools HISAT2/2.2.1 samtools/1.10
@@ -27,7 +27,7 @@ do
     echo $OUT/${F[i]:60:10}
 
     hisat2 \
-    -q -p 2 --mp 1,3.75 --no-softclip --rna-strandness RF --no-unal \
+    -q -p 2 --mp 3.75,3.75 --no-softclip --rna-strandness FR --no-unal \
     -x $INDEX -1 ${F[i]} -2 ${R[i]} \
     | samtools view -u \
     | samtools sort -n -o $OUT/${F[i]:60:10} -@ 20
