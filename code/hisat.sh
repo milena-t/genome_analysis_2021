@@ -18,6 +18,7 @@ F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*1P.fastq)
 R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*2P.fastq)
 #reverse paired reads
 
+
 for i in ${!R[*]}
 do  
     echo '------------currently mapping: '
@@ -26,11 +27,12 @@ do
     echo 'to: '
     echo $OUT/${F[i]:60:10}
 
+    #pipe hisat directly to samtools
     hisat2 \
     -q -p 2 --mp 3.75,3.75 --no-softclip --rna-strandness FR --no-unal \
     -x $INDEX -1 ${F[i]} -2 ${R[i]} \
     | samtools view -u \
-    | samtools sort -n -o $OUT/${F[i]:60:10} -@ 20
+    | samtools sort -n -o $OUT/${F[i]:61:10} -@ 20
 
     echo '-------------------------------------------------------------'
 done
