@@ -13,9 +13,9 @@ OUT=/home/milenatr/private/genome_analysis_data/mapping/hisat_results
 INDEX=/home/milenatr/private/genome_analysis_data/mapping/hisat_index/ht2_index
 REFDIR=/home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna
 
-F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*1P.fastq.gz)
+F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*1P.fastq)
 #forward paired reads
-R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*2P.fastq.gz)
+R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*2P.fastq)
 #reverse paired reads
 
 for i in ${!R[*]}
