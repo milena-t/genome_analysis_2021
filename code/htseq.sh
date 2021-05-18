@@ -17,7 +17,7 @@ do
     echo '------------currently counting: '
     echo ${F[i]}
     echo 'to: '
-    echo $OUT/${F[i]:67:10}
+    echo $OUT/${F[i]:66:10}
 
     htseq-count \
     -f bam \
@@ -27,7 +27,7 @@ do
     -i ID \
     ${F[i]} \
     $GFF \
-    >$OUT/${F[i]:61:10}
+    >$OUT/${F[i]:66:10}
 
     echo '-------------------------------------------------------------'
 done
