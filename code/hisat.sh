@@ -27,7 +27,7 @@ do
     echo $OUT/${F[i]:60:10}
 
     hisat2 \
-    -q -p 2 --mp 3.75,3.75 --no-softclip --rna-strandness RF --no-unal \
+    -q -p 2 --mp 3.75,1 --no-softclip --rna-strandness RF --no-unal \
     -x $INDEX -1 ${F[i]} -2 ${R[i]} \
     | samtools view -u \
     | samtools sort -n -o $OUT/${F[i]:60:10} -@ 20
