@@ -14,8 +14,6 @@ REFDIR=/home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_0155
 INDEX=/home/milenatr/private/genome_analysis_data/mapping/index
 OUT=/home/milenatr/private/genome_analysis_data/mapping/results
 
-
-
 F=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*1P.fastq.gz)
 #forward paired reads
 R=(/home/milenatr/private/genome_analysis_data/rna_s1_trim/*2P.fastq.gz)
