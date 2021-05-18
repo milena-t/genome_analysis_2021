@@ -29,7 +29,7 @@ do
 
     #pipe hisat directly to samtools
     hisat2 \
-    -q -p 2 --mp 3.75,3.75 --no-softclip --rna-strandness FR --no-unal \
+    -q -p 2 --mp 3.75,3.75 --no-softclip --rna-strandness RF --no-unal \
     -x $INDEX -1 ${F[i]} -2 ${R[i]} \
     | samtools view -u \
     | samtools sort -n -o $OUT/${F[i]:61:10} -@ 20
