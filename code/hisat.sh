@@ -6,7 +6,7 @@
 #SBATCH -t 05:00:00
 #SBATCH -J map_HISAT
 
-module load bioinfo-tools HISAT2/2.2.1
+module load bioinfo-tools HISAT2/2.2.1 samtools/1.10
 module load python/3.8.7
 
 OUT=/home/milenatr/private/genome_analysis_data/mapping/hisat_results
