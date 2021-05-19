@@ -8,7 +8,7 @@
 
 module load bioinfo-tools samtools/1.12
 
-F=(/home/milenatr/private/genome_analysis_data/mapping/results/*.bam)
+F=(/home/milenatr/private/genome_analysis_data/mapping/hisat_results/*)
 
 
 for i in ${!F[*]}

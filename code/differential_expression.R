@@ -15,7 +15,7 @@ if (FALSE){
 library(edgeR)
 
 
-
+#sample names
 samples_STAR<- c("RR1719013_","RR1719014_","RR1719015_",
             "RR1719016_","RR1719017_","RR1719018_",
             "RR1719204_","RR1719206_","RR1719207_",
@@ -61,6 +61,11 @@ counts$samples$group <- traits
 #convert to CPM values for comparative differential expression analysis
 cpm_counts <- cpm(counts)
 lcpm<- cpm(counts, log=TRUE)
+
+#check the expression of the annotated genes
+ann_genes <- c("rna3158", "rna3163", "gene2144", "gene2145", "gene2147", "rna3175", "gene2151")
+match(ann_genes, rownames(counts$counts)) #are not present in the data
+
 
 # remove lowly expressed genes
 keep.exprs <- filterByExpr(counts, group=traits)
