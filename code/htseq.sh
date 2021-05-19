@@ -38,4 +38,3 @@ echo 'finished count'
 
 # potentially try: -s reverse 
 # potentially -i locus_tag 
- 

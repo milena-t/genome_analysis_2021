@@ -1,6 +1,6 @@
 ### Differential expression analysis ###
 
-## The student manual suggests DESeq2
+## The student manual suggests DESeq2, but the installation does not work, there is some error with the versions, I think
 if (FALSE){
   if (!requireNamespace("BiocManager", quietly = TRUE)){
     install.packages("BiocManager")
@@ -15,13 +15,20 @@ if (FALSE){
 library(edgeR)
 
 setwd("/home/milena/bioinformatics/genome_analysis_git/htseq_count")
+setwd("/home/milena/bioinformatics/genome_analysis_git/htseq_count/HISAT_count/HISAT_count")
 
-samples<- c("RR1719013_","RR1719014_","RR1719015_",
+samples_STAR<- c("RR1719013_","RR1719014_","RR1719015_",
             "RR1719016_","RR1719017_","RR1719018_",
             "RR1719204_","RR1719206_","RR1719207_",
             "RR1719208_","RR1719209_","RR1719211_",
             "RR1719212_","RR1719213_","RR1719214_",
             "RR1719241_","RR1719242_")
+samples_HISAT<- c("SRR1719013","SRR1719014","SRR1719015",
+            "SRR1719016","SRR1719017","SRR1719018",
+            "SRR1719204","SRR1719206","SRR1719207",
+            "SRR1719208","SRR1719209","SRR1719211",
+            "SRR1719212","SRR1719213","SRR1719214",
+            "SRR1719241","SRR1719242")
 #for some reason RR1719266 is missing?
 # Sample classification: developmental stage, limb, replicate
 conditions <- c("CS15_F1", "CS15_F2", "CS15_F3",
@@ -37,7 +44,10 @@ non_rep_conditions <- c("15_F", "15_F", "15_F",
                         "16_H", "17_H", "16_H",
                         "17_H", "16_H")
 
-counts <- readDGE(samples) # 370315 genes
+# Choose one of the two!
+counts <- readDGE(samples_HISAT) # 370315 genes
+counts <- readDGE(samples_STAR) # 370315 genes
+dim(counts)
 
 colnames(counts) <- conditions
 traits <- as.factor(non_rep_conditions)
@@ -56,7 +66,24 @@ noint<-rownames(counts) %in% c("__no_feature", "__ambiguous", "__too_low_aQual",
 counts<-counts[!noint,]
 counts$samples$lib.size <- colSums(counts$counts)
 
+# MDS plot
+library(RColorBrewer)
+dev_stage <- as.factor(c(rep("CS15", 6), rep("CS16", 3), rep("CS17", 3), "CS16", "CS17", "CS16", "CS17", "CS16")) 
+limb <- as.factor(c(rep("F", 3), rep("H", 3), rep("F", 6), rep("H", 5)))
+lcpm<- cpm(counts, log=TRUE)
 
+par(mfrow=c(1,2))
+col.group <- dev_stage #assign colors to mating regimes
+levels(col.group) <- brewer.pal(nlevels(col.group),"Set1")
+col.group <- as.character(col.group)
+col.lane <- limb #assign colors to genders
+levels(col.lane) <- brewer.pal(nlevels(col.lane),"Set1")
+col.lane <- as.character(col.lane)
+
+plotMDS(lcpm,labels=dev_stage,col=col.group, dim = c(1,2))
+title(main="A. Dev. Stage")
+plotMDS(lcpm,labels=limb,col=col.lane, dim=c(1,2))
+title(main="B. Limb")
 
 
 
