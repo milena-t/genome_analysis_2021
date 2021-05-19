@@ -5,7 +5,7 @@ if (FALSE){
   if (!requireNamespace("BiocManager", quietly = TRUE)){
     install.packages("BiocManager")
     BiocManager::install(version = '3.12')
-    BiocManager::install("DESeq2", version = "3.12")
+    BiocManager::install("DESeq2")#, version = "3.12")
   }
   library(DESeq2)
 }
@@ -95,10 +95,37 @@ title(main="A. Dev. Stage")
 plotMDS(lcpm,labels=limb,col=col.lane, dim=c(1,2))
 title(main="B. Limb")
 
+# Principal component analysis
 lcpm_pca <- prcomp(lcpm)
 summary(lcpm_pca)
 
 
+### Differential expression analysis ###
+
+trait <- as.factor(non_rep_conditions)
+design <- model.matrix(~0+trait)  # The 0 means that the intercept is not included
+colnames(design)<-gsub("group","",colnames(design))
+design
+
+# the comparison is between males and females in the same mating regime
+contr.matrix<-makeContrasts( 
+  CS15 = trait15_F - trait15_H,
+  CS16 = trait16_F - trait16_H,
+  CS17 = trait17_F - trait17_H,
+  levels=colnames(design))
+contr.matrix
+
+v <- voom(counts, design, plot = FALSE)
+
+#fitting linear models for comparisons of interest
+vfit <- lmFit(v, design)
+vfit <- contrasts.fit(vfit,contrasts=contr.matrix)
+efit <- eBayes(vfit)
+
+## The plots of average log-expression against log-fold change are made as follows:
+plotMD(efit,column=1,status=dt[,1],main=paste('polygamy'),xlim=c(-8,13))
+plotMD(efit,column=2,status=dt[,2],main=paste('monogamy'),xlim=c(-8,13))
+plotMD(efit,column=3,status=dt[,3],main=paste('male-limited'),xlim=c(-8,13))
 
 
 
