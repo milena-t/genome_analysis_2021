@@ -1,15 +1,7 @@
 ### Differential expression analysis ###
 
 ## The student manual suggests DESeq2, but the installation does not work, there is some error with the versions, I think
-if (FALSE){
-  if (!requireNamespace("BiocManager", quietly = TRUE)){
-    install.packages("BiocManager")
-    BiocManager::install(version = '3.12')
-    BiocManager::install("DESeq2")#, version = "3.12")
-  }
-  library(DESeq2)
-}
-# The installation does not work, there is some error with the versions
+
 # For this reason I will use EdgeR for differential expression analysis
 
 library(edgeR)
@@ -43,10 +35,7 @@ non_rep_conditions <- c("15_F", "15_F", "15_F",
                         "16_H", "17_H", "16_H",
                         "17_H", "16_H")
 
-# Choose one of the two! (the files are not in github, only on my local computer)
-setwd("/home/milena/bioinformatics/genome_analysis_git/htseq_count/HISAT_count/HISAT_count")
-counts <- readDGE(samples_HISAT) # 370315 genes
-counts <- calcNormFactors(counts, method = 'TMM')
+# the HISAT result did not improve, so the star mapping will be used here
 
 setwd("/home/milena/bioinformatics/genome_analysis_git/htseq_count")
 counts <- readDGE(samples_STAR) # 370315 genes
@@ -65,7 +54,6 @@ lcpm<- cpm(counts, log=TRUE)
 #check the expression of the annotated genes
 ann_genes <- c("rna3158", "rna3163", "gene2144", "gene2145", "gene2147", "rna3175", "gene2151")
 match(ann_genes, rownames(counts$counts)) #are not present in the data
-
 
 # remove lowly expressed genes
 keep.exprs <- filterByExpr(counts, group=traits)
@@ -107,26 +95,71 @@ design <- model.matrix(~0+trait)  # The 0 means that the intercept is not includ
 colnames(design)<-gsub("group","",colnames(design))
 design
 
-# the comparison is between males and females in the same mating regime
-contr.matrix<-makeContrasts( 
+# the comparison between the different samples as described in the paper
+
+#difference between forelimb and hindlimb
+contr.matrix_l<-makeContrasts( #compare fore and hindlimbs
+  limb = (trait15_F-trait16_F-trait17_F) - (trait15_H-trait16_H-trait17_H),
+  levels=colnames(design))
+contr.matrix_l
+ 
+# difference between two consequential developmental stages
+contr.matrix_cs<-makeContrasts( #pairwise compare developmental stages
+  CS15_CS16 = (trait15_F-trait15_H) - (trait16_F-trait16_H),
+  CS16_CS17 = (trait16_F-trait16_H) - (trait17_F-trait17_H),
+  levels=colnames(design))
+contr.matrix_cs
+
+#compare forelimb and hindlimb in each developmental stage
+contr.matrix_cs.l<-makeContrasts( #compare limbs within dev. stage
   CS15 = trait15_F - trait15_H,
   CS16 = trait16_F - trait16_H,
   CS17 = trait17_F - trait17_H,
   levels=colnames(design))
-contr.matrix
+contr.matrix_cs.l
 
 v <- voom(counts, design, plot = FALSE)
 
 #fitting linear models for comparisons of interest
 vfit <- lmFit(v, design)
-vfit <- contrasts.fit(vfit,contrasts=contr.matrix)
+vfit <- contrasts.fit(vfit,
+                      contrasts=contr.matrix_cs) #exchange with contract matrix that you want to analyze
 efit <- eBayes(vfit)
 
-## The plots of average log-expression against log-fold change are made as follows:
-plotMD(efit,column=1,status=dt[,1],main=paste('polygamy'),xlim=c(-8,13))
-plotMD(efit,column=2,status=dt[,2],main=paste('monogamy'),xlim=c(-8,13))
-plotMD(efit,column=3,status=dt[,3],main=paste('male-limited'),xlim=c(-8,13))
+summary(decideTests(efit)) 
+dt <- decideTests((efit)) #genes with -1 are downregulated, genes with +1 are upregulated
 
+## Heatmap
+
+#assuming dt is based on contr.matrix_cs.l!
+cs15 <- length(which(dt[,1]!=0))
+cs16 <- length(which(dt[,2]!=0))
+cs17 <- length(which(dt[,3]!=0))
+
+library(gplots)
+heatmap_de <- function(trait, title, m){
+  trait.topgenes <- rownames(trait[1:50,]) #ranked by p-value
+  i <- which(rownames(v$E) %in% trait.topgenes)
+  mycol <- colorpanel(1000, 'blue', 'white', 'red')
+  
+  heatmap.2(lcpm[i,], scale = 'row',
+            labRow = substr(rownames(v$E), 8, 200), #remove numbers from the beginning of rownames
+            labCol = trait,
+            col = mycol,
+            trace = 'none',
+            density.info = 'none',
+            margin = c(8,6),
+            lhei = c(2,10),
+            dendrogram = 'column',
+            main = title,
+            margins = m)
+}
+# careful! does not work when figure window is too small
+m <- c(7, 21) #adjust margins to show full protein names
+lcpm<- cpm(counts, log=TRUE)
+heatmap_de(cs15, 'Polygamy: female vs. male', m)
+heatmap_de(cs16, 'Monogamy: female vs. male', m)
+heatmap_de(cs17, 'Male-limited: female vs. male', m)
 
 
 
