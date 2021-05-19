@@ -14,8 +14,7 @@ if (FALSE){
 
 library(edgeR)
 
-setwd("/home/milena/bioinformatics/genome_analysis_git/htseq_count")
-setwd("/home/milena/bioinformatics/genome_analysis_git/htseq_count/HISAT_count/HISAT_count")
+
 
 samples_STAR<- c("RR1719013_","RR1719014_","RR1719015_",
             "RR1719016_","RR1719017_","RR1719018_",
@@ -44,11 +43,17 @@ non_rep_conditions <- c("15_F", "15_F", "15_F",
                         "16_H", "17_H", "16_H",
                         "17_H", "16_H")
 
-# Choose one of the two!
+# Choose one of the two! (the files are not in github, only on my local computer)
+setwd("/home/milena/bioinformatics/genome_analysis_git/htseq_count/HISAT_count/HISAT_count")
 counts <- readDGE(samples_HISAT) # 370315 genes
+counts <- calcNormFactors(counts, method = 'TMM')
+
+setwd("/home/milena/bioinformatics/genome_analysis_git/htseq_count")
 counts <- readDGE(samples_STAR) # 370315 genes
+counts <- calcNormFactors(counts, method = 'TMM')
 dim(counts)
 
+#annotate the reads 
 colnames(counts) <- conditions
 traits <- as.factor(non_rep_conditions)
 counts$samples$group <- traits
@@ -60,7 +65,7 @@ lcpm<- cpm(counts, log=TRUE)
 # remove lowly expressed genes
 keep.exprs <- filterByExpr(counts, group=traits)
 counts <- counts[keep.exprs,, keep.lib.sizes=FALSE]
-dim(counts) ## only 12 are left??
+dim(counts)
 # adjust library size after filtering
 noint<-rownames(counts) %in% c("__no_feature", "__ambiguous", "__too_low_aQual", "__not_aligned", "__alignment_not_unique")
 counts<-counts[!noint,]
@@ -85,6 +90,8 @@ title(main="A. Dev. Stage")
 plotMDS(lcpm,labels=limb,col=col.lane, dim=c(1,2))
 title(main="B. Limb")
 
+lcpm_pca <- prcomp(lcpm)
+summary(lcpm_pca)
 
 
 

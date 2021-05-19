@@ -22,7 +22,7 @@ do
     htseq-count \
     -f bam \
     -r pos \
-    -s yes \
+    -s reverse \
     -a 10 \
     -i ID \
     ${F[i]} \
