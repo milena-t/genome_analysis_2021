@@ -15,7 +15,9 @@ GFF=/home/milenatr/private/genome_analysis_data/gff_annotation/GCF_001595765.1_M
 GENOME=/home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna
 OUT=/home/milenatr/private/genome_analysis_data/gff_annotation/gff_protein.fasta
 
-gffread -w $OUT -g $GENOME $GFF
+perl gff_to_fasta.pl $GENOME $GFF $OUT
+
+#gffread -w $OUT -g $GENOME $GFF
 
 ##error
 #Warning: couldn't find fasta record for 'NW_015503911.1'!
