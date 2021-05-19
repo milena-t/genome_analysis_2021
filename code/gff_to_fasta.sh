@@ -10,6 +10,7 @@
 # gzip -d -c /proj/g2021012/2_Eckalbar_2016/additional_data/GCF_001595765.1_Mnat.v1_genomic.gff.gz > /home/milenatr/private/genome_analysis_data/gff_annotation/GCF_001595765.1_Mnat.v1_genomic.gff
 
 module load bioinfo-tools cufflinks/2.2.1
+module load perl/5.26.2
 
 GFF=/home/milenatr/private/genome_analysis_data/gff_annotation/GCF_001595765.1_Mnat.v1_genomic.gff
 GENOME=/home/milenatr/private/genome_analysis_data/example_scaffold/sel1_NW_015504190.fna
