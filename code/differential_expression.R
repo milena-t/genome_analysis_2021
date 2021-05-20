@@ -82,6 +82,7 @@ plotMDS(lcpm,labels=dev_stage,col=col.group, dim = c(1,2))
 title(main="A. Dev. Stage")
 plotMDS(lcpm,labels=limb,col=col.lane, dim=c(1,2))
 title(main="B. Limb")
+par(mfrow=c(1,1))
 
 # Principal component analysis
 lcpm_pca <- prcomp(lcpm)
@@ -123,7 +124,7 @@ v <- voom(counts, design, plot = FALSE)
 #fitting linear models for comparisons of interest
 vfit <- lmFit(v, design)
 vfit <- contrasts.fit(vfit,
-                      contrasts=contr.matrix_cs) #exchange with contract matrix that you want to analyze
+                      contrasts=contr.matrix_cs.l) #exchange with contract matrix that you want to analyze
 efit <- eBayes(vfit)
 
 summary(decideTests(efit)) 
@@ -132,13 +133,15 @@ dt <- decideTests((efit)) #genes with -1 are downregulated, genes with +1 are up
 ## Heatmap
 
 #assuming dt is based on contr.matrix_cs.l!
+#dt: gene expression: -1 significantly lower, 0 no sig. difference, 1 significantly higher
+#dt[,1]!=0: only look at significantly differentially expressed genes
 cs15 <- length(which(dt[,1]!=0))
 cs16 <- length(which(dt[,2]!=0))
 cs17 <- length(which(dt[,3]!=0))
 
 library(gplots)
 heatmap_de <- function(trait, title, m){
-  trait.topgenes <- rownames(trait[1:50,]) #ranked by p-value
+  trait.topgenes <- rownames(trait[1:8,]) #ranked by p-value
   i <- which(rownames(v$E) %in% trait.topgenes)
   mycol <- colorpanel(1000, 'blue', 'white', 'red')
   
@@ -157,9 +160,9 @@ heatmap_de <- function(trait, title, m){
 # careful! does not work when figure window is too small
 m <- c(7, 21) #adjust margins to show full protein names
 lcpm<- cpm(counts, log=TRUE)
-heatmap_de(cs15, 'Polygamy: female vs. male', m)
-heatmap_de(cs16, 'Monogamy: female vs. male', m)
-heatmap_de(cs17, 'Male-limited: female vs. male', m)
+heatmap_de(cs15, 'CS15: forelimb vs. hindlimb', m)
+heatmap_de(cs16, 'CS16: forelimb vs. hindlimb', m)
+heatmap_de(cs17, 'CS17: forelimb vs. hindlimb', m)
 
 
 
