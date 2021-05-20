@@ -1,0 +1,309 @@
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719013
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719013
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719013'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719013'
+Warning: Mate records missing for 132695 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1330:20125' aligned to NW_015504190.1:[3482152,3482210)/->.
+100000 alignment record pairs processed.
+149236 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719014
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719014
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719014'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719014'
+Warning: Mate records missing for 141421 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1318:85263' aligned to NW_015504190.1:[3482157,3482211)/->.
+100000 alignment record pairs processed.
+157473 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719015
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719015
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719015'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719015'
+Warning: Mate records missing for 78946 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1451:17350' aligned to NW_015504190.1:[3482163,3482211)/->.
+95091 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719016
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719016
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719016'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719016'
+Warning: Mate records missing for 98531 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1549:44304' aligned to NW_015504190.1:[3823425,3823526)/+>.
+100000 alignment record pairs processed.
+120830 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719017
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719017
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719017'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719017'
+Warning: Mate records missing for 106680 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1298:18269' aligned to NW_015504190.1:[757052,757131)/->.
+100000 alignment record pairs processed.
+125093 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719018
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719018
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719018'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719018'
+Warning: Mate records missing for 87509 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:395:D1RW8ACXX:4:1101:1249:61073' aligned to NW_015504190.1:[3482159,3482212)/->.
+100000 alignment record pairs processed.
+110665 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719204
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719204
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719204'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719204'
+Warning: Mate records missing for 219238 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:395:D1RW8ACXX:4:1101:1268:30126' aligned to NW_015504190.1:[3482163,3482213)/->.
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+246389 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719206
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719206
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719206'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719206'
+Warning: Mate records missing for 78023 records; first such record: <SAM_Alignment object: Paired-end read 'DJB77P1:411:H0FA3ADXX:1:1101:1185:12655' aligned to NW_015504190.1:[2371488,2371535)/+>.
+100000 alignment record pairs processed.
+124724 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719207
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719207
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719207'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719207'
+Warning: Mate records missing for 105227 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1399:12584' aligned to NW_015504190.1:[3482165,3482204)/->.
+100000 alignment record pairs processed.
+131562 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719208
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719208
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719208'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719208'
+Warning: Mate records missing for 112250 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1352:61206' aligned to NW_015504190.1:[3482152,3482213)/->.
+100000 alignment record pairs processed.
+135790 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719209
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719209
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719209'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719209'
+Warning: Mate records missing for 132631 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1306:79372' aligned to NW_015504190.1:[2319168,2319243)/+>.
+100000 alignment record pairs processed.
+156590 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719211
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719211
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719211'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719211'
+Warning: Mate records missing for 188334 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1502:40279' aligned to NW_015504190.1:[3482162,3482213)/->.
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+215046 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719212
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719212
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719212'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719212'
+Warning: Mate records missing for 51465 records; first such record: <SAM_Alignment object: Paired-end read 'DJB77P1:411:H0FA3ADXX:1:1101:1197:21527' aligned to NW_015504190.1:[2968247,2968347)/->.
+87559 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719213
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719213
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719213'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719213'
+Warning: Mate records missing for 107140 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1307:20103' aligned to NW_015504190.1:[3554094,3554169)/+>.
+100000 alignment record pairs processed.
+136542 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719214
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719214
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719214'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719214'
+Warning: Mate records missing for 138962 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1401:55708' aligned to NW_015504190.1:[3482148,3482209)/->.
+100000 alignment record pairs processed.
+167777 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719241
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719241
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719241'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719241'
+Warning: Mate records missing for 333088 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1313:22841' aligned to NW_015504190.1:[3482162,3482212)/->.
+100000 alignment record pairs processed.
+200000 alignment record pairs processed.
+300000 alignment record pairs processed.
+349281 alignment pairs processed.
+-------------------------------------------------------------
+------------currently counting: 
+/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719242
+to: 
+/home/milenatr/private/genome_analysis_data/htseq_counting/HISAT_count/SRR1719242
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719242'
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+769388 GFF lines processed.
+[E::idx_find_and_load] Could not retrieve index file for '/home/milenatr/private/genome_analysis_data/mapping/hisat_results/SRR1719242'
+Warning: Mate records missing for 100601 records; first such record: <SAM_Alignment object: Paired-end read 'DJB775P1:392:D1R59ACXX:5:1101:1364:35736' aligned to NW_015504190.1:[690280,1161953)/+>.
+100000 alignment record pairs processed.
+128229 alignment pairs processed.
+-------------------------------------------------------------
+finished count

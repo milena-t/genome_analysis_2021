@@ -1,0 +1,3 @@
+bowtie not loaded, will load bowtie
+Can't locate Bio/Seq.pm in @INC (you may need to install the Bio::Seq module) (@INC contains: /sw/comp/perl/5.26.2/rackham/lib/5.26.2/x86_64-linux-thread-multi /sw/comp/perl/5.26.2/rackham/lib/5.26.2 /sw/comp/perl/5.26.2/rackham/lib /sw/comp/perl/5.26.2/rackham/lib/site_perl/5.26.2/x86_64-linux-thread-multi /sw/comp/perl/5.26.2/rackham/lib/site_perl/5.26.2 /sw/comp/perl/5.26.2/rackham/lib/5.26.2/x86_64-linux-thread-multi /sw/comp/perl/5.26.2/rackham/lib/5.26.2) at gff_to_fasta.pl line 4.
+BEGIN failed--compilation aborted at gff_to_fasta.pl line 4.
